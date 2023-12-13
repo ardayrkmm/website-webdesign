@@ -1,0 +1,576 @@
+.container-home {
+    margin: 20px 60px 20px 60px;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.child-paralel {
+    width: 40px;
+    height: 64px;
+    background-color: #16061C;
+    clip-path: polygon(25% 0%, 58% 0, 34% 100%, 0% 100%);
+    margin-right: -20px;
+}
+
+.p-paralel {
+    z-index: 12;
+    position: relative;
+    bottom: 10%;
+    right: 40%;
+    width: 221px;
+    height: 70px;
+    display: flex;
+
+}
+
+.clip-1 {
+    z-index: 1;
+    clip-path: polygon(98% 3%, 100% 97%, 56% 95%, 12% 75%, 0 33%);
+    background-color: #F9C1B8;
+
+}
+
+.clip-2 {
+    z-index: 1;
+
+    background-color: #F05941;
+    clip-path: polygon(53% 10%, 100% 14%, 86% 98%, 10% 99%, 0% 38%);
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.clip-p1 {
+    background-color: white;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
+    align-items: center;
+    color: #F05941;
+    font-weight: 800;
+}
+
+.clip-p2 {
+    background-color: white;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 14px;
+    display: flex;
+    padding: 10px;
+    color: #280F33;
+    font-weight: 500;
+    justify-content: center;
+    box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.52);
+    position: relative;
+    align-items: center;
+}
+
+
+
+
+
+.section-pesan {
+    z-index: 6;
+    height: 600px;
+}
+
+.container-h {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-h {
+    z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .p-paralel {
+
+        position: relative;
+        bottom: 10%;
+        right: 10%;
+
+
+
+    }
+
+    .container-home {
+        margin: 16px 10px 16px 10px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container-h {
+        margin-top: 40px;
+    }
+
+    .clip-p1 {
+        width: 140px;
+        height: 30px;
+
+    }
+
+    .section-pesan {
+        position: relative;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .clip-p1 h1 {
+        font-size: 15px;
+    }
+
+    .clip-p2 {
+        width: 180px;
+        height: 30px;
+        position: relative;
+        left: 20px;
+    }
+
+    .clip-p2 h1 {
+        font-size: 10px;
+    }
+
+    .clip-1 {
+        width: 156px;
+        height: 106px;
+        position: absolute;
+        left: 0px;
+        right: 20px;
+        top: 33%;
+
+    }
+
+    .clip-2 {
+        width: 156px;
+        height: 106px;
+        position: absolute;
+        left: 60%;
+        top: 15%;
+
+    }
+
+    .img-h {
+        width: 240px;
+        height: 122px;
+        position: relative;
+
+    }
+
+    .logo {
+        width: 208px;
+        height: 62px;
+    }
+}
+
+/* @media(min-width : 320px) {
+    .container-home {
+        margin: 16px 10px 16px 10px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container-h {
+        margin-top: 40px;
+    }
+
+    .clip-1 {
+        width: 156px;
+        height: 106px;
+        position: absolute;
+        left: 0px;
+        top: 25%;
+
+    }
+
+    .img-h {
+        width: 240px;
+        height: 122px;
+        position: relative;
+
+    }
+
+    .logo {
+        width: 208px;
+        height: 62px;
+    }
+} */
+@media only screen and (min-width: 600px) {
+    .container-home {
+        margin: 16px 10px 16px 10px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .p-paralel {
+
+        position: relative;
+        bottom: 10%;
+        right: 15%;
+
+
+
+    }
+
+    .clip-1 {
+        width: 190px;
+        height: 120px;
+        position: absolute;
+        left: 40px;
+        top: 30%;
+
+    }
+
+    .clip-p1 {
+        width: 140px;
+        height: 30px;
+
+    }
+
+    .section-pesan {
+        position: relative;
+        bottom: 20px;
+        left: -80px;
+
+    }
+
+    .clip-p1 h1 {
+        font-size: 15px;
+    }
+
+    .clip-p2 {
+        width: 180px;
+        height: 30px;
+        position: relative;
+        left: 20px;
+    }
+
+    .clip-p2 h1 {
+        font-size: 10px;
+    }
+
+    .clip-2 {
+        width: 190px;
+        height: 120px;
+        position: absolute;
+        left: 60%;
+        top: 15%;
+
+    }
+
+    .container-home {
+        margin: 10px 10px 16px 10px;
+    }
+
+    .img-h {
+        width: 320px;
+        height: 192px;
+        position: relative;
+
+    }
+
+    .logo {
+        width: 180px;
+        height: 60px;
+    }
+}
+
+/* @media (min-width: 375px) {
+   
+} */
+
+@media only screen and(min-width: 425px) {
+    .p-paralel {
+
+        position: relative;
+        bottom: 15%;
+        right: 35%;
+
+
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .p-paralel {
+
+        position: relative;
+        bottom: 15%;
+        right: 35%;
+
+
+
+    }
+
+    .logo {
+        width: 240px;
+        height: 80px;
+    }
+
+    .container-home {
+        margin: 16px 10px 16px 10px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .clip-1 {
+        width: 280px;
+        height: 210px;
+        position: absolute;
+        left: 0%;
+        top: 33%;
+
+    }
+
+    .clip-2 {
+        width: 280px;
+        height: 210px;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+
+    }
+
+
+    .clip-p1 {
+        width: 150px;
+        height: 30px;
+
+    }
+
+    .section-pesan {
+        position: relative;
+        bottom: 20px;
+        left: -140px;
+
+    }
+
+    .clip-p1 h1 {
+        font-size: 15px;
+    }
+
+    .clip-p2 {
+        width: 190px;
+        height: 30px;
+        position: relative;
+        left: 20px;
+    }
+
+    .clip-p2 h1 {
+        font-size: 10px;
+    }
+
+
+
+    .img-h {
+        width: 470px;
+        height: 260px;
+        position: relative;
+
+    }
+}
+
+/* @media (min-width: 768px) {
+
+
+    .logo {
+        width: 240px;
+        height: 80px;
+    }
+
+    .clip-1 {
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        left: 18%;
+        top: 35%;
+
+    }
+
+    .container-home {
+        margin: 10px 10px 16px 10px;
+    }
+
+    .img-h {
+        width: 300px;
+        height: 200px;
+        position: relative;
+
+    }
+
+
+} */
+@media only screen and (min-width: 992px) {
+    .logo {
+        width: 368px;
+        height: 212px;
+    }
+
+    .container-home {
+        margin: 16px 30px 16px 30px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .clip-1 {
+        width: 280px;
+        height: 210px;
+        position: absolute;
+        left: 0%;
+        top: 33%;
+
+    }
+
+    .clip-2 {
+        width: 280px;
+        height: 210px;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+
+    }
+
+
+    .clip-p1 {
+        width: 200px;
+        height: 30px;
+
+    }
+
+    .section-pesan {
+        position: relative;
+        bottom: 20px;
+        left: -220px;
+
+    }
+
+    .clip-p1 h1 {
+        font-size: 20px;
+    }
+
+    .clip-p2 {
+        width: 220px;
+        height: 30px;
+        position: relative;
+        left: 20px;
+    }
+
+    .clip-p2 h1 {
+        font-size: 14px;
+    }
+
+
+    .clip-1 {
+        width: 305px;
+        height: 220px;
+        position: absolute;
+        left: 0%;
+        top: 45%;
+
+    }
+
+    .clip-2 {
+        width: 325px;
+        height: 260px;
+        position: absolute;
+        left: 60%;
+        top: 20%;
+
+    }
+
+    .img-h {
+        width: 700px;
+        height: 300px;
+        position: relative;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .logo {
+        width: 260px;
+        height: 80px;
+    }
+
+    .clip-1 {
+        width: 380px;
+        height: 300px;
+        position: absolute;
+        left: 10%;
+        top: 45%;
+
+    }
+
+    .clip-2 {
+        width: 395px;
+        height: 233px;
+        position: absolute;
+        left: 60%;
+        top: 15%;
+
+    }
+
+    .container-home {
+        margin: 10px 10px 16px 10px;
+    }
+
+    .img-h {
+        width: 800px;
+        height: 400px;
+        position: relative;
+
+    }
+
+    .clip-p1 {
+        width: 200px;
+        height: 30px;
+
+    }
+
+    .section-pesan {
+        position: relative;
+        bottom: 20px;
+        left: -220px;
+
+    }
+
+    .clip-p1 h1 {
+        font-size: 20px;
+    }
+
+    .clip-p2 {
+        width: 260px;
+        height: 30px;
+        position: relative;
+        left: 20px;
+    }
+
+    .clip-p2 h1 {
+        font-size: 14px;
+    }
+
+}

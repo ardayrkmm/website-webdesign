@@ -1,13 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Home from './components/page/home/home';
+import Tentang from './components/page/tentangH/tentang';
+import Kategori from './components/page/kategori/kategori';
+
+const route = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />
+  },
+  {
+    path: '/tentang',
+    element: <Tentang />
+  },
+  {
+    path: '/kategori',
+    element: <Kategori />
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={route} />
+
+
   </React.StrictMode>
 );
 

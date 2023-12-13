@@ -1,13 +1,15 @@
-import Layout from './components/page/layout/layout';
-import './App.css';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/page/home/home';
+import Tentang from './components/page/tentangH/tentang';
 function App() {
   return (
-    <Layout>
-      <div>
-        <h1>coba 1</h1>
-      </div>
-    </Layout>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/home-tentang' element={<Tentang />} />
+
+      </Routes>
+    </Router>
   );
 }
 

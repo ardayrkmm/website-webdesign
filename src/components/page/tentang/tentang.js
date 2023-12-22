@@ -1,18 +1,21 @@
-
 import './tentang.css'
 import hiu from '../../assets/hiu.png'
 import patung from '../../assets/patung.png'
-import Layout from '../layout/layout';
-function Tentang() {
+function Tentang({ sectionRef }) {
     return (
-        <Layout>
+        <div className="container-K" id={sectionRef}>
+
             <div className='clip-t1' />
             <div className='content-tr'>
                 <div className='clip-tr1' />
                 <div className='clip-tr2' />
                 <div className='clip-tr1' />
                 <div className='clip-tr2' />
+                <div className='clip-tr1' />
+                <div className='clip-tr2' />
             </div>
+
+
 
 
             <div className='container-tentang'>
@@ -26,7 +29,7 @@ function Tentang() {
                     </p>
                     <img src={patung} alt='ptung' />
                 </div>
-                <div className='clip-t2' />
+                {/* <div className='clip-t2' />
 
                 <div className='p-pr'>
                     <div className="cd-paralel" />
@@ -37,12 +40,11 @@ function Tentang() {
                     <div className="cd-paralel" />
                     <div className="cd-paralel" />
                     <div className="cd-paralel" />
-                </div>
+                </div> */}
 
             </div>
 
-        </Layout>
-    );
+        </div>
+    )
 }
-
 export default Tentang;

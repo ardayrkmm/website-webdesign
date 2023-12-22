@@ -1,0 +1,408 @@
+.container-K {
+    margin: 20px 60px 20px 60px;
+    max-width: 100%;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-tentang {
+    margin-bottom: 40px;
+    max-width: 100%;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 10;
+
+}
+
+.p-clip {
+    position: relative;
+    right: 0%;
+    z-index: 1;
+}
+
+.c-tentang {
+    width: 60%;
+    text-align: justify;
+    justify-content: space-evenly;
+    color: #280F33;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.c-tentang img {
+    position: absolute;
+    left: 15%;
+    width: 350px;
+    height: 400px;
+    top: 20%;
+    z-index: -21;
+}
+
+.c-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-head img {
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    z-index: -21;
+}
+
+.judul {
+    font-size: 63;
+    font-weight: bold;
+    color: #F05941;
+}
+
+.content-tr {
+    width: 14px;
+    height: 286px;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    flex-direction: column;
+}
+
+.clip-tr1 {
+    width: 14px;
+    height: 34px;
+    margin-bottom: 4px;
+    background-color: #280F33;
+}
+
+.clip-tr2 {
+    width: 14px;
+    height: 110px;
+    margin-bottom: 4px;
+    background-color: #280F33;
+}
+
+.clip-t1 {
+    width: 404px;
+    background-color: #F05941;
+    position: absolute;
+    left: -4%;
+    transform: rotate(20deg);
+    top: 8%;
+    clip-path: polygon(49% 0, 100% 0, 99% 100%, 0 100%, 0 46%);
+    height: 268px;
+}
+
+@media only screen and (min-width: 320px) {
+    .c-tentang img {
+        position: absolute;
+
+        width: 150px;
+        height: 200px;
+        top: 80%;
+        left: -10%;
+        z-index: -21;
+    }
+
+    .content-tr {
+        display: flex;
+        position: absolute;
+        top: 15%;
+        left: -0%;
+    }
+
+    .container-K {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .c-tentang {
+        width: 70%;
+
+
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .c-head img {
+
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: -30%;
+
+    }
+
+    .c-tentang {
+        width: 68%;
+
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .clip-tr1 {
+        width: 7px;
+        height: 17px;
+
+    }
+
+    .clip-tr2 {
+        width: 7px;
+        height: 55px;
+
+    }
+
+    .clip-t1 {
+        width: 180px;
+        height: 140px;
+        position: absolute;
+        left: -40%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .content-tr {
+        display: flex;
+        position: absolute;
+        top: 15%;
+        left: -8%;
+    }
+
+    .c-tentang img {
+        position: absolute;
+
+        width: 160px;
+        height: 210px;
+        top: 80%;
+        left: -8%;
+        z-index: -21;
+    }
+
+    .c-tentang {
+        width: 68%;
+
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .c-head img {
+
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        right: -30%;
+
+    }
+
+    .clip-tr1 {
+        width: 11px;
+        height: 21px;
+
+    }
+
+    .clip-tr2 {
+        width: 11px;
+        height: 59px;
+
+    }
+
+    .clip-t1 {
+        width: 185px;
+        height: 145px;
+        position: absolute;
+        left: -50%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .content-tr {
+        display: flex;
+        position: absolute;
+        top: 15%;
+        left: -10%;
+    }
+
+    .c-tentang img {
+        position: absolute;
+
+        width: 160px;
+        height: 210px;
+        top: 80%;
+        left: -8%;
+        z-index: -21;
+    }
+
+    .c-tentang {
+        width: 68%;
+
+
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .c-head img {
+
+        width: 165px;
+        height: 165px;
+        position: absolute;
+        right: -30%;
+
+    }
+
+    .clip-tr1 {
+        width: 12px;
+        height: 22px;
+
+    }
+
+    .clip-tr2 {
+        width: 12px;
+        height: 60;
+
+    }
+
+    .clip-t1 {
+        width: 190px;
+        height: 150px;
+        position: absolute;
+        left: -50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .content-tr {
+        display: flex;
+        position: absolute;
+        top: 15%;
+        left: -0%;
+    }
+
+    .c-tentang img {
+        position: absolute;
+
+        width: 200px;
+        height: 250px;
+        top: 75%;
+        left: 8%;
+        z-index: -21;
+    }
+
+    .c-head img {
+
+        width: 265px;
+        height: 265px;
+        position: absolute;
+        right: -20%;
+
+    }
+
+    .clip-tr1 {
+        width: 13px;
+        height: 25px;
+
+    }
+
+    .clip-tr2 {
+        width: 13px;
+        height: 65;
+
+    }
+
+    .clip-t1 {
+        width: 280px;
+        height: 240px;
+        position: absolute;
+        left: -20%;
+    }
+
+    .container-K {
+        margin: 20px 60px 20px 60px;
+    }
+
+    .c-tentang {
+        width: 60%;
+
+
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .content-tr {
+        width: 14px;
+        height: 286px;
+
+        position: absolute;
+        top: 15%;
+        left: 10%;
+
+    }
+
+    .c-tentang img {
+        position: absolute;
+
+
+        top: 55%;
+        left: 14%;
+
+        position: absolute;
+
+        width: 350px;
+        height: 400px;
+
+
+    }
+
+    .container-K {
+        margin: 20px 60px 20px 60px;
+    }
+
+    .c-tentang {
+        width: 50%;
+
+
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .c-head img {
+
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        right: 0%;
+
+    }
+
+    .clip-tr1 {
+        width: 14px;
+        height: 55px;
+
+    }
+
+    .clip-tr2 {
+        width: 14px;
+        height: 110px;
+
+    }
+
+    .clip-t1 {
+        width: 503px;
+        height: 367px;
+        position: absolute;
+        left: -10%;
+    }
+}

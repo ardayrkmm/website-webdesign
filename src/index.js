@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
+import DetailM from './components/page/Detail_manusia/Detailmanusia'
+import DetailA from './components/page/Detail_artefetak/DetailArtefetak'
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Home from './components/page/home/home';
-import Tentang from './components/page/tentangH/tentang';
-import Kategori from './components/page/kategori/kategori';
+
+
+import Home from './components/page/hm/home';
+import Detail_Hewan from './components/page/Detail_hewan/DetailHewan';
 
 const route = createBrowserRouter([
   {
@@ -14,13 +16,18 @@ const route = createBrowserRouter([
     element: <Home />
   },
   {
-    path: '/tentang',
-    element: <Tentang />
+    path: '/detailM',
+    element: <DetailM />
   },
   {
-    path: '/kategori',
-    element: <Kategori />
-  }
+    path: '/detailA',
+    element: <DetailA />
+  },
+  {
+    path: '/detailH',
+    element: <Detail_Hewan />
+  },
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

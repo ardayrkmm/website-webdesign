@@ -1,0 +1,333 @@
+.all {
+    font-family: Poppins;
+    z-index: index 100;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Manusia_Purba:first-child {
+    display: block;
+}
+
+.evolusi_image {
+    flex: 1;
+}
+
+.evolusi_image img {
+    z-index: 4;
+    position: relative;
+}
+
+.clipM {
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+    top: 145%;
+    bottom: 0%;
+    right: 5%;
+    position: absolute;
+    background-color: #F05941;
+    clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+}
+
+.evolusi_manusia {
+    align-items: center;
+
+}
+
+.detail_evolusi_manusia {
+
+    margin-right: 20px;
+    color: var(--color4, #280F33);
+    overflow: hidden;
+    position: relative;
+}
+
+.D1 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    border: 1px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    transition: opacity 1s ease;
+}
+
+.Evolusi_Manusia,
+.Manusia_Purba {
+    transition: fade 1s ease-in-out;
+}
+
+.Evolusi_Manusia:hover {
+    scale: 110%;
+    transition-duration: 0.2s;
+}
+
+.jen .Manusia_Purba {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.Manusia_Purba.active {
+    opacity: 1;
+}
+
+.Slider {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.detail_manusia_purba {
+    flex: 1;
+    color: var(--color4, #280F33);
+}
+
+.p1,
+.p2 {
+    color: var(--color4, #280F33);
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    top: 140%;
+    width: auto;
+    margin-top: -22px;
+    padding: 40px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    transition: ease-in-out;
+    border-radius: 0 3px -px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.0);
+
+}
+
+.arrow {
+
+    z-index: 10;
+    flex: 1;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    transition-duration: 0.2s;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.detail_manusia {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    border: 1px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3);
+
+    fill: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+}
+
+.test :hover {
+    transition-duration: 0.2s;
+    scale: 101%;
+
+}
+
+.bg_detail {
+    background-image: url("../../assets/bg.svg");
+    background-size: auto;
+    height: 100vh;
+}
+
+.detail_image {
+    margin-right: -60px;
+}
+
+.h1,
+.h2 {
+    color: var(--color5, #F05941);
+    text-align: center;
+}
+
+
+
+.detail_jenis_manusia {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.jenis_image {
+    flex: 1;
+    width: 2%;
+}
+
+.D2 {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    ;
+    border: 1px;
+    border-radius: 50px;
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+    stroke-width: 2px;
+}
+
+.jenis_image img {
+    border-radius: 12px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/Rectangle_36.png');
+    background-position: center;
+}
+
+.h4:hover,
+.p4:hover,
+.jenis_image:hover {
+    scale: 102%;
+    transition-duration: 0.2s;
+}
+
+.arrow1 {
+    height: 50px;
+    cursor: pointer;
+    position: flex;
+    width: auto;
+    margin-top: -22px;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: ease-in-out;
+    border-radius: 0 3px -px 0;
+}
+
+.arrow2 {
+    height: 50px;
+    cursor: pointer;
+    position: flex;
+    width: auto;
+    margin-top: -22px;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: ease-in-out;
+    border-radius: 0 3px -px 0;
+
+}
+
+.bg1 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.detail_jenis_purba {
+    flex: 1;
+}
+
+.bg_evolusi {
+    background-image: url("../../assets/bg.svg");
+    background-size: auto;
+    height: 130vh;
+}
+
+.bg_jenis {
+    background-image: url("../../assets/bg.svg");
+    background-size: auto;
+    height: 100vh;
+}
+
+.h4,
+.p4 {
+    color: white;
+}
+
+.h5 {
+    text-align: center;
+    color: var(--color5, #F05941);
+}
+
+.prev1 {
+    left: 0%;
+}
+
+.prev1,
+.next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 289%;
+    width: auto;
+    margin-top: -22px;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: ease-in-out;
+    border-radius: 0 3px -px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.next1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev1:hover,
+.next1:hover {
+    transition-duration: 0.2s;
+    background-color: rgba(0, 0, 0, 0.0);
+}

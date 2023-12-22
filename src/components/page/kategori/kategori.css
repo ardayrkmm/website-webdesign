@@ -1,63 +1,187 @@
-.container-kategori {
-    margin: 26px 80px 26px 80px;
+.container-A {
+    margin: 40px 60px 40px 60px;
     max-width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    display: flex;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    position: relative;
+
+}
+
+
+.card-k {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid #F05941;
     justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+}
+
+.card-k-l {
+    width: 604px;
+    height: 276px;
+    margin-bottom: 10%;
+}
+
+.card-k-s {
+    width: 410px;
+
+    height: 196px;
+}
+
+.imag-l {
+    width: 482px;
+    height: 180px;
+}
+
+.imag-s {
+    width: 327px;
+    height: 90px;
+}
+
+.child-A1 {
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.child-A2 {
+    display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+
+.child-A2 h1 {
+    font-size: 60px;
+    color: #F05941;
+    font-weight: bold;
+}
+
+.btn-K-atas {
+    width: 292px;
+    height: 42px;
+    border-radius: 60px;
+    background-color: #F05941;
+    opacity: 0.5;
+    box-shadow: 0 4px 30px #F05941;
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-K-atas:hover,
+.btn-K-bawah:hover {
+    opacity: 1;
+}
+
+.btn-K-bawah {
+    opacity: 0.5;
+    width: 292px;
+    height: 42px;
+    border-radius: 60px;
+    background-color: #F05941;
+    box-shadow: 0 4px 30px #F05941;
+    position: absolute;
+    right: -10%;
+    top: -10%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-K-atas h1 {
+    margin-right: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-K-bawah h1 {
+    margin-right: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.arw {
+    width: 20px;
+    height: 20px;
+}
+
+.clip-K1 {
+    background-color: white;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    display: flex;
+    width: 300px;
+    z-index: 6;
+    height: 50px;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
+    align-items: center;
+    color: #F05941;
+    font-weight: 800;
+    position: relative;
+    right: -60px;
+}
+
+.clip-K2 {
+    background-color: white;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    display: flex;
+    width: 300px;
+    height: 100px;
     z-index: 6;
 
+    padding: 10px;
+    color: #280F33;
+    font-weight: 500;
+    justify-content: center;
+    box-shadow: -6px 6px 6px -7px rgba(0, 0, 0, 0.52);
+    position: relative;
+    align-items: center;
+
 }
 
-@media only screen and (min-width: 600px) {
-    .container-kategori {
-        margin: 16px 10px 16px 10px;
-        max-width: 100%;
-        height: 100%;
-
-
-    }
+.clip-K1 h1 {
+    font-size: 30px;
+    color: #F05941;
+    font-weight: bold;
+    text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    .container-kategori {
-        margin: 16px 10px 16px 10px;
-        max-width: 100%;
-        height: 100%;
-
-
-    }
+.clip-K2 h1 {
+    font-size: 20px;
+    color: #280F33;
+    font-weight: 600;
+    text-align: start;
 }
 
-@media only screen and (min-width: 768px) {
-    .container-kategori {
-        margin: 16px 25px 16px 25px;
-        max-width: 100%;
-        height: 100%;
-
-
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .container-kategori {
-        margin: 26px 40px 26px 40px;
-        max-width: 100%;
-        height: 100%;
-
-
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .container-kategori {
-        margin: 26px 80px 26px 80px;
-        max-width: 100%;
-        height: 100%;
-
-
-    }
+.container-clip {
+    position: relative;
+    top: -5%;
 }
